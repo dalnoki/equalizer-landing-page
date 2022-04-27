@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  background-image: url(../assets/bg-main-mobile.png);
+  background-position: -2rem -11rem;
+  background-repeat: no-repeat;
+  color: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.card {
+  background-color: #FA7453;
+  border-radius: 0.8rem;
+  color: white;
+  margin-top: -13rem;
+  padding: 2.25rem;
+  position: relative;
+  z-index: 2;
+}
+.card__button {
+  background: none;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.card__button img {
+  padding-right: 0.5rem;
+}
+.card__button--ios {
+  background-color: #191826;
+  color: #FCFAF9;
+  margin-bottom: 1rem;
+  padding: 0.8125rem 4.5rem 1rem;
+}
+.card__button--android {
+  color: #191826;
+  background-color: #FCFAF9;
+  padding: 0.8125rem 3.3rem 1rem;
+}
+.card__price {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2.875rem;
+}
+.card__price :first-child {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.card__price :last-child {
+  padding-left: 1rem;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+}
+.card__text {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+  margin-bottom: 2.25rem;
+  max-width: 18.875rem;
+}
+
+.decoration {
+  background-color: #191826;
+  background-image: url("../assets/bg-pattern-2.svg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 76%;
+  border-radius: 0.8rem;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+.decoration img {
+  width: 13rem;
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  margin: -6.5rem;
+}
+
+.main__text {
+  font-weight: 300;
+  line-height: 1.625rem;
+  margin-bottom: 10.375rem;
+  max-width: 20.44rem;
+  padding: 1.5rem;
+}
+.main__title {
+  color: #191826;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.25rem;
+  padding: 1.5rem;
+}
+
+.header {
+  padding: 1.5rem;
+}
+.header__image {
+  display: none;
+}
+.header__logo {
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  padding: 0 1.5rem;
+}
+.footer__logo {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.footer__text {
+  line-height: 1.625rem;
+  margin-bottom: 4rem;
+  max-width: 20.4375rem;
+}
+.footer__text a {
+  color: #191826;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer__social {
+  margin-bottom: 5rem;
+}
+.footer__social :not(:last-child) {
+  margin-right: 1.25rem;
+}
+
+.attribution {
+  color: #004140;
+  padding-top: 1rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=index.css.map */

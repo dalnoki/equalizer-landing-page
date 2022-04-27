@@ -1,0 +1,42 @@
+@use 'abstractS/mixins' as *;
+@use 'abstracts/variables' as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(../assets/bg-main-mobile.png);
+  background-position: bottom left;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 1.5rem;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.header {
+  &__image {
+    display: none;
+  }
+
+  &__logo {
+    margin-top: 2.5rem;
+  }
+}
+
+.attribution {
+  color: #004140;
+  padding-top: 1rem;
+  font-size: .7rem;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
